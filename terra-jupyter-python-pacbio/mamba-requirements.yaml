@@ -1,0 +1,8 @@
+name: base
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pbmarkdup=1.0.3
+  - pbmm2=1.12.0
