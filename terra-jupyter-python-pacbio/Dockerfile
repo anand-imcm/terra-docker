@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
   zlib1g-dev \
   libz-dev \
   libcurl4-openssl-dev \
+  zstd \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
