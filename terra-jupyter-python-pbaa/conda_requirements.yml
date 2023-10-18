@@ -4,12 +4,12 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - samtools<=1.17
-  - pbaa<=1.0.3
-  - pbmm2<=1.13.0
-  - seqkit<=2.5.1
-  - bcftools<=1.17
-  - setuptools<58
-  - gcc<=13.2.0
-  - fastqc<=0.12.1
-  - bedtools<=2.31.0
+- bcftools<=1.18
+- bedtools<=2.31.0
+- bzip2<=1.0.8
+- pbaa<=1.0.3
+- pbmm2<=1.13.0
+- pip
+- samtools<=1.18
+- seqkit<=2.5.1
+- seqtk<=1.4
