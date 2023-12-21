@@ -5,3 +5,8 @@ channels:
   - defaults
 dependencies:
   - synapseclient
+  - bcftools
+  - plink
+  - samtools
+  - htslib
+  - bedtools
