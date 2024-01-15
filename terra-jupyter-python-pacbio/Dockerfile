@@ -2,6 +2,12 @@ FROM us.gcr.io/broad-dsp-gcr-public/terra-jupyter-python:1.1.5
 
 USER root
 ENV PIP_USER=false
+
+RUN apt-get update && apt-get install -yq --no-install-recommends \
+  less \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/*
+
 ENV HTSLIB_CONFIGURE_OPTIONS="--enable-gcs"
 
 ################# custom tools using mamba #################
